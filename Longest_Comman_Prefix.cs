@@ -76,3 +76,13 @@ public class Solution {
         
     }
 }
+
+/* 
+Runtime Compexity: O(S) where S is the sum of all characters of all strings in the array. 
+Worst case: When all strings in the array are same. In this case, runtime will be O(n * m) where n is number of strings in the array. 
+And m is the length of each string. 
+Best Case: All string begin with a different character, in which case runtime will be O(n*1)
+
+
+Space Complexity: O(1) as we are not using any additional memory
+ */
